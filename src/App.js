@@ -39,10 +39,10 @@ function App() {
         <QRcode value={text} />
       </div>
       <div className="input-here">
-        <p>Enter Your Text</p>
+        {/* <p>Enter Your Text</p> */}
         <div className="inner-input">
-          <input type="text" id="height" placeholder="Enter Your Height" />
-          <input type="text" id="weight" placeholder="Enter Your Weight" />
+          <input type="text" id="height" placeholder="Enter Your Height in cm" />
+          <input type="text" id="weight" placeholder="Enter Your Weight in kg" />
           <div className="i-small">
            Diabatic
             <input type="radio" name="dia" value='true' onChange={e=>setd(e.target.value)} />
