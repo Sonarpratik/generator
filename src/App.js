@@ -10,21 +10,23 @@ function App() {
     
     const x =   a.value**2;
     const result = 10000*b.value/x;
-    console.log(result);
     if(result>=18.5&&result<=25){
-      if(d===true){
+      if(d==="true"){
 
-        // settext("normalD "+result+" HE is diabetic")
+        // settext("normal "+result+" HE is diabetic")
         settext("normalD")
       }else{
-        settext("normal")
+    console.log(d);
+
         // settext("normal "+result+" HE is nondiabetic")
+        settext("normal")
 
       }
 
     }else{
-      if(d===true){
+      if(d==="true"){
 
+        // settext("obesity "+result+" HE is diabetic")
         settext("oD")
 
       }else{
@@ -57,7 +59,7 @@ function App() {
             onClick={() => {
               handleALL(
                 document.getElementById("height"),
-                document.getElementById("weight"),
+                document.getElementById("weight"),d
               );
             }}
           >
