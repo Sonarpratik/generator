@@ -14,19 +14,22 @@ function App() {
     if(result>=18.5&&result<=25){
       if(d===true){
 
-        settext("normal "+result+" HE is diabetic")
+        // settext("normalD "+result+" HE is diabetic")
+        settext("normalD")
       }else{
-        settext("normal "+result+" HE is nondiabetic")
+        settext("normal")
+        // settext("normal "+result+" HE is nondiabetic")
 
       }
 
     }else{
       if(d===true){
 
-        settext("obesity "+result+" HE is diabetic")
+        settext("oD")
 
       }else{
-        settext("obesity "+result+" HE is nondiabetic")
+        // settext("obesity "+result+" HE is nondiabetic")
+        settext("o")
 
       }
 
