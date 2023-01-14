@@ -14,7 +14,7 @@ function App() {
       if(d==="true"){
 
         // settext("normal "+result+" HE is diabetic")
-        settext("normalD")
+        settext("normaD")
       }else{
     console.log(d);
 
