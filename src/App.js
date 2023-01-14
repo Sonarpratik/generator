@@ -57,7 +57,7 @@ function App() {
             onClick={() => {
               handleALL(
                 document.getElementById("height"),
-                document.getElementById("weight"),d
+                document.getElementById("weight"),
               );
             }}
           >
