@@ -47,6 +47,14 @@ function App() {
         {/* <p>Enter Your Text</p> */}
         <div className="inner-input">
           <input type="text" id="height" placeholder="Enter Your Height in cm" />
+          <input type="text" placeholder="Enter any txt to turn it to barcode"  onChange={(e) => {
+              
+
+settext(e.target.value)
+                
+                // document.getElementById("weight"),d
+              
+            }} />
           <input type="text" id="weight" placeholder="Enter Your Weight in kg" />
           <div className="i-small">
            Diabatic
